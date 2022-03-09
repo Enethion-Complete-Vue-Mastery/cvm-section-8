@@ -34,11 +34,6 @@
 <script>
 export default {
   props: ['questions', 'questionsAnswered'],
-  emits: ['answer-question'],
-  computed: {
-    currentQuestion () {
-      return this.questions[this.questionsAnswered]
-    }
-  }
+  emits: ['answer-question']
 }
 </script>
